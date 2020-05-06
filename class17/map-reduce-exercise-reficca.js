@@ -58,8 +58,6 @@ const capitalize = function(string){
 // 1) Write a function that takes a string and returns an object representing the character count for each letter. 
 // Use .reduce to build this object. 
 
-
-
 const countLetters = function(string){
   return string.split("").reduce((acc, curVal) => {
     acc[curVal] = (acc[curVal] || 0) + 1;
@@ -72,8 +70,6 @@ countLetters('abbcccddddeeeee') // => {a:1, b:2, c:3, d:4, e:5}
 // 2) Write a function that takes a string and a target, and returns true or false if the target is present in 
 // the string. Use .reduce to accomplish this.
 
-
-
 const isPresent = function(string, target) {
   return string.split("").reduce((acc, curVal) => {
     acc = acc || target === curVal;
@@ -82,6 +78,7 @@ const isPresent = function(string, target) {
 };
 console.log(isPresent('abcd', 'b'), // => true
 isPresent('efghi', 'a')) // => false)
+
 
 // PARTY WITH MAP AND REDUCE *AT THE SAME TIME*
 
