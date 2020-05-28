@@ -25,10 +25,9 @@ In the requirements below, the terms are quite general, since they depend on
 exactly what you planned out for your app.
 
 * A user should be able to create a **board/list**. Conceptually, a board/list
-  would contain many items that a user can add. The ability to delete a
-  board/list is optional.
-* For each board, a user should be able to add **tasks**. 
-* Tasks should have:
+  would contain many items that a user can add.
+* For each board, a user should be able to add **board items/tasks**. 
+* Board items should have:
    * A due date
    * A title
    * A boolean flag for completd or not completed
