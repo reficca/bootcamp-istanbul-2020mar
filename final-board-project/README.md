@@ -85,6 +85,12 @@ Completion of rest of the features.
 Below, you'll find additional resources not directly related to the requirements
 of the project.
 
+## Planning
+I highly recommend that you write out your "schema" before starting. A schema
+means a list of keys (fields) that are present on each type of object. What
+keys can a board have? What keys can a board item have? Any other objects
+that you need to keep track of?
+
 ## Examples
 There are tons of examples of such apps, even just a click away from here. You
 may want to look into any of the following products or terms for inspiration.
