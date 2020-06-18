@@ -25,10 +25,9 @@ In the requirements below, the terms are quite general, since they depend on
 exactly what you planned out for your app.
 
 * A user should be able to create a **board/list**. Conceptually, a board/list
-  would contain many items that a user can add. The ability to delete a
-  board/list is optional.
-* For each board, a user should be able to add **tasks**. 
-* Tasks should have:
+  would contain many items that a user can add.
+* For each board, a user should be able to add **board items/tasks**. 
+* Board items should have:
    * A due date
    * A title
    * A boolean flag for completd or not completed
@@ -61,7 +60,7 @@ exactly what you planned out for your app.
   between "list" and "board" views of all the boards. Hint: keep a state
   variable on the container that contains two possible values. Here is an
   example of what we mean by [board](./board-example.png) and
-  [list](./list-example.png).
+  [list](./list-example.png). List-view only has to be read-only
 
 ## Checkpoints
 
@@ -85,6 +84,12 @@ Completion of rest of the features.
 # Appendix
 Below, you'll find additional resources not directly related to the requirements
 of the project.
+
+## Planning
+I highly recommend that you write out your "schema" before starting. A schema
+means a list of keys (fields) that are present on each type of object. What
+keys can a board have? What keys can a board item have? Any other objects
+that you need to keep track of?
 
 ## Examples
 There are tons of examples of such apps, even just a click away from here. You
